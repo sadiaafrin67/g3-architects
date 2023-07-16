@@ -7,6 +7,75 @@
 header {
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
+    
 
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  nav >ul{
+    display: flex;
+  }
+  ul > li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  li > a{
+    text-decoration: none;
+    color:#424242 ;
+  }
+  .nav-title{
+    color:  #131313;
+font-size: 2.5rem;
+font-weight: 700;
+
+  }
+  .banner{
+    max-width: 800px;
+    text-align: center;
+    margin-top: 90px;
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+  .title{
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .detail{
+    color:  #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .btn-primary{
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 20px 25px;
+    cursor: pointer;
+  }
+  .banner-img{
+    margin-top: 30px;
+    width: 100%;
+  }
   
+    
+  @media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+   nav{
+    flex-direction: column;
+   }
+  }
